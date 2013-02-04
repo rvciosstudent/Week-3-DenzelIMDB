@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12F0187F16BDBDAB005CA104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F0187E16BDBDAB005CA104 /* UIKit.framework */; };
+		12F0188116BDBDAB005CA104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F0188016BDBDAB005CA104 /* Foundation.framework */; };
+		12F0188316BDBDAB005CA104 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F0188216BDBDAB005CA104 /* CoreGraphics.framework */; };
+		12F0188916BDBDAB005CA104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12F0188716BDBDAB005CA104 /* InfoPlist.strings */; };
+		12F0188B16BDBDAB005CA104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0188A16BDBDAB005CA104 /* main.m */; };
+		12F0188F16BDBDAB005CA104 /* DenzelIMDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0188E16BDBDAB005CA104 /* DenzelIMDBAppDelegate.m */; };
+		12F0189116BDBDAB005CA104 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F0189016BDBDAB005CA104 /* Default.png */; };
+		12F0189316BDBDAB005CA104 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F0189216BDBDAB005CA104 /* Default@2x.png */; };
+		12F0189516BDBDAB005CA104 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F0189416BDBDAB005CA104 /* Default-568h@2x.png */; };
+		12F0189816BDBDAB005CA104 /* DenzelIMDBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0189716BDBDAB005CA104 /* DenzelIMDBMasterViewController.m */; };
+		12F0189B16BDBDAB005CA104 /* DenzelIMDBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F0189A16BDBDAB005CA104 /* DenzelIMDBDetailViewController.m */; };
+		12F0189E16BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F0189C16BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPhone.xib */; };
+		12F018A116BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F0189F16BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPad.xib */; };
+		12F018A416BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F018A216BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPhone.xib */; };
+		12F018A716BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12F018A516BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPad.xib */; };
+		12F018B116BDC362005CA104 /* denzel7272.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12F018B316BDC362005CA104 /* denzel7272.jpg */; };
+		12F018B416BDC36B005CA104 /* denzel5757.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 12F018B616BDC36B005CA104 /* denzel5757.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12F0187A16BDBDAB005CA104 /* DenzelIMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DenzelIMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12F0187E16BDBDAB005CA104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12F0188016BDBDAB005CA104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12F0188216BDBDAB005CA104 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12F0188816BDBDAB005CA104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12F0188A16BDBDAB005CA104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12F0188C16BDBDAB005CA104 /* DenzelIMDB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DenzelIMDB-Prefix.pch"; sourceTree = "<group>"; };
+		12F0188D16BDBDAB005CA104 /* DenzelIMDBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DenzelIMDBAppDelegate.h; sourceTree = "<group>"; };
+		12F0188E16BDBDAB005CA104 /* DenzelIMDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DenzelIMDBAppDelegate.m; sourceTree = "<group>"; };
+		12F0189016BDBDAB005CA104 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		12F0189216BDBDAB005CA104 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		12F0189416BDBDAB005CA104 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		12F0189616BDBDAB005CA104 /* DenzelIMDBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DenzelIMDBMasterViewController.h; sourceTree = "<group>"; };
+		12F0189716BDBDAB005CA104 /* DenzelIMDBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DenzelIMDBMasterViewController.m; sourceTree = "<group>"; };
+		12F0189916BDBDAB005CA104 /* DenzelIMDBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DenzelIMDBDetailViewController.h; sourceTree = "<group>"; };
+		12F0189A16BDBDAB005CA104 /* DenzelIMDBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DenzelIMDBDetailViewController.m; sourceTree = "<group>"; };
+		12F0189D16BDBDAB005CA104 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DenzelIMDBMasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		12F018A016BDBDAB005CA104 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DenzelIMDBMasterViewController_iPad.xib; sourceTree = "<group>"; };
+		12F018A316BDBDAB005CA104 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DenzelIMDBDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		12F018A616BDBDAB005CA104 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DenzelIMDBDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		12F018B216BDC362005CA104 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/denzel7272.jpg; sourceTree = "<group>"; };
+		12F018B516BDC36B005CA104 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/denzel5757.jpg; sourceTree = "<group>"; };
+		12F018B716BDC3AA005CA104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/DenzelIMDB-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12F0187716BDBDAB005CA104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F0187F16BDBDAB005CA104 /* UIKit.framework in Frameworks */,
+				12F0188116BDBDAB005CA104 /* Foundation.framework in Frameworks */,
+				12F0188316BDBDAB005CA104 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12F0186F16BDBDAB005CA104 = {
+			isa = PBXGroup;
+			children = (
+				12F0188416BDBDAB005CA104 /* DenzelIMDB */,
+				12F0187D16BDBDAB005CA104 /* Frameworks */,
+				12F0187B16BDBDAB005CA104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12F0187B16BDBDAB005CA104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12F0187A16BDBDAB005CA104 /* DenzelIMDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12F0187D16BDBDAB005CA104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12F0187E16BDBDAB005CA104 /* UIKit.framework */,
+				12F0188016BDBDAB005CA104 /* Foundation.framework */,
+				12F0188216BDBDAB005CA104 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12F0188416BDBDAB005CA104 /* DenzelIMDB */ = {
+			isa = PBXGroup;
+			children = (
+				12F0188D16BDBDAB005CA104 /* DenzelIMDBAppDelegate.h */,
+				12F0188E16BDBDAB005CA104 /* DenzelIMDBAppDelegate.m */,
+				12F0189616BDBDAB005CA104 /* DenzelIMDBMasterViewController.h */,
+				12F0189716BDBDAB005CA104 /* DenzelIMDBMasterViewController.m */,
+				12F0189916BDBDAB005CA104 /* DenzelIMDBDetailViewController.h */,
+				12F0189A16BDBDAB005CA104 /* DenzelIMDBDetailViewController.m */,
+				12F0189C16BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPhone.xib */,
+				12F0189F16BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPad.xib */,
+				12F018A216BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPhone.xib */,
+				12F018A516BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPad.xib */,
+				12F0188516BDBDAB005CA104 /* Supporting Files */,
+			);
+			path = DenzelIMDB;
+			sourceTree = "<group>";
+		};
+		12F0188516BDBDAB005CA104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12F018B316BDC362005CA104 /* denzel7272.jpg */,
+				12F018B616BDC36B005CA104 /* denzel5757.jpg */,
+				12F018B816BDC3AA005CA104 /* DenzelIMDB-Info.plist */,
+				12F0188716BDBDAB005CA104 /* InfoPlist.strings */,
+				12F0188A16BDBDAB005CA104 /* main.m */,
+				12F0188C16BDBDAB005CA104 /* DenzelIMDB-Prefix.pch */,
+				12F0189016BDBDAB005CA104 /* Default.png */,
+				12F0189216BDBDAB005CA104 /* Default@2x.png */,
+				12F0189416BDBDAB005CA104 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12F0187916BDBDAB005CA104 /* DenzelIMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F018AA16BDBDAB005CA104 /* Build configuration list for PBXNativeTarget "DenzelIMDB" */;
+			buildPhases = (
+				12F0187616BDBDAB005CA104 /* Sources */,
+				12F0187716BDBDAB005CA104 /* Frameworks */,
+				12F0187816BDBDAB005CA104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DenzelIMDB;
+			productName = DenzelIMDB;
+			productReference = 12F0187A16BDBDAB005CA104 /* DenzelIMDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12F0187116BDBDAB005CA104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DenzelIMDB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "RVC Student";
+			};
+			buildConfigurationList = 12F0187416BDBDAB005CA104 /* Build configuration list for PBXProject "DenzelIMDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12F0186F16BDBDAB005CA104;
+			productRefGroup = 12F0187B16BDBDAB005CA104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12F0187916BDBDAB005CA104 /* DenzelIMDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12F0187816BDBDAB005CA104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F0188916BDBDAB005CA104 /* InfoPlist.strings in Resources */,
+				12F0189116BDBDAB005CA104 /* Default.png in Resources */,
+				12F0189316BDBDAB005CA104 /* Default@2x.png in Resources */,
+				12F0189516BDBDAB005CA104 /* Default-568h@2x.png in Resources */,
+				12F0189E16BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPhone.xib in Resources */,
+				12F018A116BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPad.xib in Resources */,
+				12F018A416BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPhone.xib in Resources */,
+				12F018A716BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPad.xib in Resources */,
+				12F018B116BDC362005CA104 /* denzel7272.jpg in Resources */,
+				12F018B416BDC36B005CA104 /* denzel5757.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12F0187616BDBDAB005CA104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F0188B16BDBDAB005CA104 /* main.m in Sources */,
+				12F0188F16BDBDAB005CA104 /* DenzelIMDBAppDelegate.m in Sources */,
+				12F0189816BDBDAB005CA104 /* DenzelIMDBMasterViewController.m in Sources */,
+				12F0189B16BDBDAB005CA104 /* DenzelIMDBDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12F0188716BDBDAB005CA104 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F0188816BDBDAB005CA104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12F0189C16BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F0189D16BDBDAB005CA104 /* en */,
+			);
+			name = DenzelIMDBMasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		12F0189F16BDBDAB005CA104 /* DenzelIMDBMasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F018A016BDBDAB005CA104 /* en */,
+			);
+			name = DenzelIMDBMasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		12F018A216BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F018A316BDBDAB005CA104 /* en */,
+			);
+			name = DenzelIMDBDetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		12F018A516BDBDAB005CA104 /* DenzelIMDBDetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F018A616BDBDAB005CA104 /* en */,
+			);
+			name = DenzelIMDBDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		12F018B316BDC362005CA104 /* denzel7272.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F018B216BDC362005CA104 /* en */,
+			);
+			name = denzel7272.jpg;
+			sourceTree = "<group>";
+		};
+		12F018B616BDC36B005CA104 /* denzel5757.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F018B516BDC36B005CA104 /* en */,
+			);
+			name = denzel5757.jpg;
+			sourceTree = "<group>";
+		};
+		12F018B816BDC3AA005CA104 /* DenzelIMDB-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12F018B716BDC3AA005CA104 /* en */,
+			);
+			name = "DenzelIMDB-Info.plist";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12F018A816BDBDAB005CA104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12F018A916BDBDAB005CA104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12F018AB16BDBDAB005CA104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DenzelIMDB/DenzelIMDB-Prefix.pch";
+				INFOPLIST_FILE = "DenzelIMDB/DenzelIMDB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12F018AC16BDBDAB005CA104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DenzelIMDB/DenzelIMDB-Prefix.pch";
+				INFOPLIST_FILE = "DenzelIMDB/DenzelIMDB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12F0187416BDBDAB005CA104 /* Build configuration list for PBXProject "DenzelIMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F018A816BDBDAB005CA104 /* Debug */,
+				12F018A916BDBDAB005CA104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12F018AA16BDBDAB005CA104 /* Build configuration list for PBXNativeTarget "DenzelIMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F018AB16BDBDAB005CA104 /* Debug */,
+				12F018AC16BDBDAB005CA104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12F0187116BDBDAB005CA104 /* Project object */;
+}
